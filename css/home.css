@@ -3,7 +3,7 @@
 @import "../css/components/mainMenu.css";
 
 main {
-    color: whitesmoke;
+    background-color : whitesmoke;
     width: 100vw;
     height: 100vh;
 }

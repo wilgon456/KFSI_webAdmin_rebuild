@@ -1,0 +1,102 @@
+@import "../css/components/root.css";
+@import "../css/components/mainLayout.css";
+@import "../css/components/mainMenu.css";
+
+main {
+    background-color : whitesmoke;
+    width: 100;
+    height: 100vh;
+}
+
+.fileSubmit {
+    text-align: right;
+}
+
+.fileSubmit > .uploadName {
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+    vertical-align: middle;
+    border: 1px solid #dddddd;
+    width: 80%;
+    color: #999999;
+}
+
+.fileSubmit > label[for="file"] {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #999999;
+    cursor: pointer;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.fileSubmit input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+}
+
+.contentsAddForm > .submitResult > input[type="submit"] {
+    background-color: var(--blue-color); 
+    font-weight: 600;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.contentsAddForm > .label {
+    color: var(--blue-color);
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid var(--blue-color);
+    background-color: white;
+    height: 30px;
+    padding : 5px 10px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.categorySelector {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+.categorySelector > select {
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid var(--blue-color);
+    background-color: rgba(128, 128, 128, 0.29);
+}
+
+.categorySelector > select:first-child {
+    width: 20%;
+}
+
+.categorySelector > select:last-child {
+    width: 77%;
+}
+
+.submitResult {
+    text-align: right;
+}
+
+.contentsAddForm > .contentsName > input[type="text"] {
+    background-color: rgba(128, 128, 128, 0.29);
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid var(--blue-color);
+    width: 99%;
+}
