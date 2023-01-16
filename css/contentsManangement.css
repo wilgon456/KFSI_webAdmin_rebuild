@@ -1,0 +1,89 @@
+@import "../css/components/root.css";
+@import "../css/components/mainLayout.css";
+@import "../css/components/mainMenu.css";
+
+main {
+    background-color : whitesmoke;
+    width: 100;
+    height: 100vh;
+}
+
+.contentsManagementForm {
+    width: 100%;
+}
+
+.categorySelector {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.categorySelector > select {
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid var(--blue-color);
+    background-color: rgba(128, 128, 128, 0.29);
+}
+
+.categorySelector > select:first-child {
+    width: 20%;
+}
+
+.categorySelector > select:last-child {
+    width: 77%;
+}
+
+.contentsList {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contentsList > input[type="checkbox"]{
+    border: 2px solid var(--blue-color);
+    height: 15px;
+    width: 20px;
+
+}
+
+.contentsList > .contentsListName{
+    display: block;
+    border: 2px solid var(--blue-color);
+    padding: 10px;
+    width: 80%;
+
+}
+
+.contentsList > .controlTab > button {
+    background-color: var(--blue-color);
+    color: white;
+    border: 2px solid var(--blue-color);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contentsList > .controlTab > input[type="submit"] {
+    background-color: var(--blue-color);
+    color: white;
+    border: 2px solid var(--blue-color);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contentsAddForm > .controlTab {
+    width: 40%;
+}
+
+.contentsManagementForm > .selectAction > input[type="submit"] {
+    background-color: var(--blue-color);
+    color: white;
+    border: 2px solid var(--blue-color);
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 80px;
+}

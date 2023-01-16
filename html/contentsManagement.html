@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contentsManangement.css">
+    <title>contentsManagement</title>
+</head>
+<body>
+    <div class="mainLogo">
+        <a href="#"><img src="../src/Logo_kfsi.svg"></a>
+    </div>
+
+    <header>
+        <nav class="mainMenu">
+            <ul>
+                <li><a href="#">콘텐츠 추가</a></li>
+                <li><a href="#">콘텐츠 관리</a></li>
+                <li><a href="#">유저 통계</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form method="POST" action="#" class="contentsManagementForm">
+            <div class="categorySelector">
+                <select>
+                    <option value="M1">대분류1</option>
+                    <option value="M2">대분류2</option>
+                </select>
+                <select>
+                    <option value="S1">소분류1</option>
+                    <option value="S2">소분류2</option>
+                </select>
+            </div>
+            <div class="contentsList">
+                <input type="checkbox">
+                <spna class="contentsListName">콘텐츠 이름</spna>
+                <div class="controlTab">
+                    <button>▼</button>
+                    <button>▲</button>
+                    <input type="submit" value="편집">
+                </div>
+            </div>
+            <div class="selectAction">
+                <input type="submit" value="이동" onclick="showPopupMove()">
+                <input type="submit" value="삭제" onclick="showPopupDelete()">
+            </div>
+
+        </form>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
