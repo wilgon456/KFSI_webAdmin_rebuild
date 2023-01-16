@@ -1,0 +1,42 @@
+header {
+    width: 100;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--blue-color);
+    margin-top: 20px;
+}
+
+header > nav {
+	width:600px;
+    height:100%;
+}
+
+header ul {
+	width:100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+header ul > li {
+	font-size:20px;
+	height: 100%;
+	display: flex;
+    align-items: center;
+}
+
+header ul > li > a {
+    color: white;
+}
+
+header ul > li :hover{
+    font-weight: 600;
+    
+}
+
+header ul > li :focus{
+    font-weight: 600;
+    border-bottom: 1px white solid;
+}

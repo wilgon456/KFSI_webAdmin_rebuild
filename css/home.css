@@ -1,0 +1,9 @@
+@import "../css/components/root.css";
+@import "../css/components/mainLayout.css";
+@import "../css/components/mainMenu.css";
+
+main {
+    color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}

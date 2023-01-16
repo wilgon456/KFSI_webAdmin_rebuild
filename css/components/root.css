@@ -9,6 +9,14 @@ body {
     font-family: 'Pretendard-Regular';
 }
 
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
 :root {
     --blue-color : #015EAB;
     --green-color : #8EC744;
