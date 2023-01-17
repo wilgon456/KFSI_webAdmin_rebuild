@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/contentsManangement.css">
     <title>contentsManagement</title>
+
+    <script>
+        function showPopupMove() {
+            window.open("popup_contentsMove.html","콘텐츠 이동","width=623, height=323, top=10, left=10")
+        };
+        function showPopupDelete() {
+            window.open("popup_contentsDelete.html","콘텐츠 이동","width=623, height=323, top=10, left=10")
+        };
+    </script>
 </head>
 <body>
     <div class="mainLogo">
@@ -43,8 +52,8 @@
                 </div>
             </div>
             <div class="selectAction">
-                <input type="submit" value="이동" onclick="showPopupMove()">
-                <input type="submit" value="삭제" onclick="showPopupDelete()">
+                <input type="button" value="이동" onclick="showPopupMove()">
+                <input type="button" value="삭제" onclick="showPopupDelete()">
             </div>
 
         </form>

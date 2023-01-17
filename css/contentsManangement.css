@@ -76,7 +76,7 @@ main {
     width: 40%;
 }
 
-.contentsManagementForm > .selectAction > input[type="submit"] {
+.contentsManagementForm > .selectAction > input[type="button"] {
     background-color: var(--blue-color);
     color: white;
     border: 2px solid var(--blue-color);
