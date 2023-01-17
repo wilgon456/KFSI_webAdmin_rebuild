@@ -1,0 +1,75 @@
+@import "../css/components/root.css";
+@import "../css/components/mainLayout.css";
+@import "../css/components/mainMenu.css";
+
+main {
+    background-color : whitesmoke;
+    width: 100;
+    height: 100%;
+}
+
+.GAuser > .label {
+    width: 100;
+    border: 2px solid var(--blue-color);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.GAuser > .dateSelect {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.GAuser > .dateSelect > button {
+    padding: 5px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.GAuser > .dateSelect > input[type="date"] {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.GAuser > .GAuserResult {
+    border: 1px solid var(--blue-color);
+    width: 100;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.GAevent > .label {
+    width: 100;
+    border: 2px solid var(--blue-color);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.GAevent > .dateSelect {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.GAevent > .dateSelect > button {
+    padding: 5px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.GAevent > .dateSelect > input[type="date"] {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.GAevent > .GAuserResult {
+    border: 1px solid var(--blue-color);
+    width: 100;
+    height: 400px;
+    margin-top: 10px;
+}
+
+
