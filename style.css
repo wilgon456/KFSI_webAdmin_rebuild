@@ -39,6 +39,12 @@
     font-size: 16px;
     background-color: var(--blue-color);
     margin-top: 10px;
+    cursor: pointer;
+}
+
+.loginForm > input[type="submit"] :active {
+    background-color: white;
+    color: var(--blue-color);
 }
 
 .loginForm > input[type="checkbox"]{
