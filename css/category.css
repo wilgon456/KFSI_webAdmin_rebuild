@@ -1,0 +1,78 @@
+@import "../css/components/root.css";
+@import "../css/components/mainLayout.css";
+@import "../css/components/mainMenu.css";
+
+main {
+    background-color : whitesmoke;
+    width: 100;
+    height: 100vh;
+}
+
+.categoryAdd > form  {
+    text-align: center;
+}
+
+.categoryAdd > form > select {
+    margin-top: 10px;
+    width: 20%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.categoryAdd > form > input[type="text"] {
+    margin-top: 10px;
+    width: 70%;
+    padding: 10px;
+}
+
+.categoryAdd > form > input[type="button"] {
+    margin-top: 10px;
+
+    padding: 10px;
+}
+
+.categoryLabel {
+    margin-top: 20px;
+    display: block;
+    border: 1px solid var(--blue-color);
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    color: var(--blue-color);
+}
+
+.categoryShow {
+    margin-top: 10px;
+    border: 2px solid var(--blue-color);
+    width: 100;
+    height: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.categoryShow > form > span {
+    display: inline-block;
+    width: 92%;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 10px;
+}
+
+.categoryShow > form > input[type="button"] {
+    padding: 10px;
+}
+
+.pageNavi {
+    text-align: center;
+}
+
+.pageNavi > li {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: white;
+    font-weight: 500;
+    color: var(--blue-color);
+    border: 1px solid var(--blue-color);
+}
+

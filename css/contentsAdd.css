@@ -18,7 +18,7 @@ main {
     padding: 0 10px;
     vertical-align: middle;
     border: 1px solid #dddddd;
-    width: 80%;
+    width: 90%;
     color: #999999;
 }
 
@@ -79,6 +79,7 @@ main {
     padding: 5px;
     border: 1px solid var(--blue-color);
     background-color: rgba(128, 128, 128, 0.29);
+    cursor: pointer;
 }
 
 .categorySelector > select:first-child {

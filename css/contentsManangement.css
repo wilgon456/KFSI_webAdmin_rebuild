@@ -34,6 +34,16 @@ main {
     width: 77%;
 }
 
+.sort {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.sort > input[type="button"] {
+    padding: 5px;
+    cursor: pointer;
+}
+
 .contentsList {
     display: flex;
     margin-top: 20px;
