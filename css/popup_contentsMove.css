@@ -9,40 +9,42 @@ body {
     height: 300px;
     background-color: whitesmoke;
     padding: 10px;
-}
-
-.popupSelector {
-    margin-top: 90px;
     display: flex;
-    flex-flow: wrap row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
-.popupSelector > select {
-    font-size: 15px;
-    padding: 5px;
-    border: 1px solid var(--blue-color);
-    background-color: rgba(128, 128, 128, 0.29);
-}
-
-.popupSelector > select:first-child {
-    width: 20%;
-}
-
-.popupSelector > select:last-child {
-    width: 77%;
-}
-
-.popupForm > .submit > input[type="submit"] {
-    background-color: var(--blue-color);
-    color: white;
-    border: 1px solid var(--blue-color);
-    font-weight: 500;
-    font-size: 15px;
-    margin-top: 20px;
+.popupSelector1 > select {
+    width: 100%;
     padding: 10px;
+    margin-bottom: 10px;
+}
+
+.popupSelector2 > select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .submit {
-    text-align: right;
+    text-align: center;
+}
+
+.submit :first-child {
+    padding: 10px;
+    background-color: var(--blue-color);
+    color: white;
+    border: 1px solid var(--blue-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit :last-child {
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
 }

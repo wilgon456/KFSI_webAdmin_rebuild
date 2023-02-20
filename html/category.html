@@ -23,32 +23,58 @@
     </header>
 
     <main>
-        <label class="categoryLabel">카테고리 추가</label>
-        <div class="categoryAdd">
-            <form action='#'>
-                <select>
-                    <option value="M1">대분류</option>
-                    <option value="M2">소분류</option>
-                </select>
-                <input type="text" name="contentsName" placeholder="카테고리 이름 작성">
-                <input type='button' value='추가'>
-              </form>
+        <label class="categoryLabel">대분류</label>
+        <div class="categoryBtn">
+            <input type="button" value="변경">
+            <input type="button" value="추가">
+            <input type="button" value="삭제">
         </div>
-
-
-        <label class="categoryLabel">전체 카테고리</label>
-        <div class="categoryShow">
-            <form action='#'>
+        <div style="overflow: auto;" class="categoryShow">
+            <div class="category">
+                <input type="checkbox">
                 <span>대분류</span>
-                <input type='button' value='삭제'>
-              </form>
+            </div>
+            <div class="category">
+                <input type="checkbox">
+                <span>대분류</span>
+            </div>
+            <div class="category">
+                <input type="checkbox">
+                <span>대분류</span>
+            </div>
+            <div class="category">
+                <input type="checkbox">
+                <span>대분류</span>
+            </div>
+            <div class="category">
+                <input type="checkbox">
+                <span>대분류</span>
+            </div>
+            <div class="category">
+                <input type="checkbox">
+                <span>대분류</span>
+            </div>
+            <div class="category">
+                <input type="checkbox">
+                <span>대분류</span>
+            </div>
+            <div class="category">
+                <input type="checkbox">
+                <span>대분류</span>
+            </div>
+
         </div>
-        <nav class="pageNavi">
-            <li><a href="#">◀︎</a></li>
-            <li><a href="#">1</a></li>
-            <li><a href="#">▶︎</a></li>
-        </nav>
-    </main>
+        <label class="categoryLabel">소분류</label>
+        <div class="categoryBtn">
+            <input type="button" value="변경">
+            <input type="button" value="추가">
+            <input type="button" value="삭제">
+        </div>
+        <div style="overflow: auto;" class="categoryShow">
+            <div class="category">
+                <input type="checkbox">
+                <span>소분류</span>
+            </div>
 
     <script src="./app.js"></script>
 </body>
