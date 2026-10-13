@@ -31,7 +31,7 @@ cd KFSI_webAdmin_rebuild
 python3 -m http.server 8000
 ```
 
-**http://localhost:8000**에서 시작합니다. **http://localhost:8000/html/home.html**, **http://localhost:8000/html/contentsManagement.html**처럼 각 화면을 직접 열어 볼 수도 있습니다.
+[http://localhost:8000](http://localhost:8000)에서 시작합니다. [http://localhost:8000/html/home.html](http://localhost:8000/html/home.html), [http://localhost:8000/html/contentsManagement.html](http://localhost:8000/html/contentsManagement.html)처럼 각 화면을 직접 열어 볼 수도 있습니다.
 
 ## 파일 구성
 
