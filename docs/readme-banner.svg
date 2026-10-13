@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">KFSI Admin UI</title>
+  <desc id="desc">Admin screens, from login to content.. Project banner.</desc>
+  <rect width="1200" height="260" rx="18" fill="#0f172a"/>
+  <rect x="0" y="0" width="14" height="260" fill="#2dd4bf"/>
+  <path d="M735 0v260" stroke="#334155" stroke-width="1"/>
+  <text x="58" y="105" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">KFSI Admin UI</text>
+  <text x="60" y="158" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="24">Admin screens, from login to content.</text>
+  <text x="60" y="216" fill="#2dd4bf" font-family="Arial, Helvetica, sans-serif" font-size="19">github.com/wilgon456</text>
+  <g fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"><rect x="860" y="58" width="125" height="155" rx="10"/><path d="M885 98h75 M885 126h75 M885 154h50 M840 78v135h125"/></g>
+</svg>
